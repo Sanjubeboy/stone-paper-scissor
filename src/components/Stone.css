@@ -37,11 +37,13 @@
 .head{
     text-align: center;
     color: white;
+    margin-right: 30px;
 }
 
 .head1{
     text-align: center;
     color: black;
+    margin-right: 10px;
 }
 
 .options{
@@ -84,11 +86,11 @@
 
 .sc{
     position: absolute;
-    top: 400px;
+    top: 20px;
     right: 10px;
     display: flex;
     background-color: aqua;
-    width: 450px;
+    width: 300px;
     height: 200px;
     border-radius: 30px;
     margin-top: 40px;

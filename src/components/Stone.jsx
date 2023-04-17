@@ -153,11 +153,11 @@ function Stone() {
             <div className='sc'>
 
                 <div className='ind'>
-                    <h1>Player Score</h1>
+                    <h1>Player</h1>
                     <h1 className='head1'>{playerscore}</h1>
                 </div>
                 <div>
-                    <h1>Bot Score</h1>
+                    <h1>Bot</h1>
                     <h1 className='head1'>{botscore}</h1>
                 </div>
             </div>
