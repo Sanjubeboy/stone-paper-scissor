@@ -130,7 +130,7 @@ function Stone() {
         <div className='display'>
         <div className='player'>
             <h1 className='head'>You</h1>
-            <img className='img' src='https://img.freepik.com/free-icon/user-image-with-black-background_318-34564.jpg?w=2000' alt=''/>
+            <img className='img1' src='https://p.kindpng.com/picc/s/146-1468390_transparent-shadow-person-png-missing-profile-picture-icon.png' alt=''/>
             <h1 className='head'>{playerout}</h1>
 
         </div>
@@ -154,11 +154,11 @@ function Stone() {
 
                 <div className='ind'>
                     <h1>Player Score</h1>
-                    <h1 className='head'>{playerscore}</h1>
+                    <h1 className='head1'>{playerscore}</h1>
                 </div>
                 <div>
                     <h1>Bot Score</h1>
-                    <h1 className='head'>{botscore}</h1>
+                    <h1 className='head1'>{botscore}</h1>
                 </div>
             </div>
 
