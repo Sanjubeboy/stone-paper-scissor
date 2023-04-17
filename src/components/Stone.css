@@ -84,11 +84,11 @@
 
 .sc{
     position: absolute;
-    top: 20px;
+    top: 400px;
     right: 10px;
     display: flex;
     background-color: aqua;
-    width: 300px;
+    width: 450px;
     height: 200px;
     border-radius: 30px;
     margin-top: 40px;
