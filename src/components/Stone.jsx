@@ -10,7 +10,8 @@ function Stone() {
     const [botout, setbout] = useState("none")
 
     const handlestone = () =>{
-
+        
+        console.log(userinput)
         setInput(1)
         setpout("stone")
         calculateScore(1)
@@ -26,15 +27,15 @@ function Stone() {
     }
 
     const newset = (x) =>{
-        if(x == 1)
+        if(x === 1)
         {
             setbout("stone")
         }
-        if(x==2)
+        if(x===2)
         {
             setbout("paper")
         }
-        if(x==3)
+        if(x===3)
         {
             setbout("scissor")
         }
@@ -129,14 +130,14 @@ function Stone() {
         <div className='display'>
         <div className='player'>
             <h1 className='head'>You</h1>
-            <img className='img' src='https://img.freepik.com/free-icon/user-image-with-black-background_318-34564.jpg?w=2000'/>
+            <img className='img' src='https://img.freepik.com/free-icon/user-image-with-black-background_318-34564.jpg?w=2000' alt=''/>
             <h1 className='head'>{playerout}</h1>
 
         </div>
 
         <div className='bot'>
             <h1 className='head'>Bot</h1>
-            <img className='img' src='https://media.istockphoto.com/id/1221348467/vector/chat-bot-ai-and-customer-service-support-concept-vector-flat-person-illustration-smiling.jpg?s=612x612&w=0&k=20&c=emMSOYb4jWIVQQBVpYvP9LzGwPXXhcmbpZHlE6wgR78='/>
+            <img className='img' src='https://media.istockphoto.com/id/1221348467/vector/chat-bot-ai-and-customer-service-support-concept-vector-flat-person-illustration-smiling.jpg?s=612x612&w=0&k=20&c=emMSOYb4jWIVQQBVpYvP9LzGwPXXhcmbpZHlE6wgR78=' alt=''/>
             <h1 className='head'>{botout}</h1>
         </div>
         </div>
